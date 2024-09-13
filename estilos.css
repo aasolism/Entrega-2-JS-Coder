@@ -223,7 +223,6 @@ body, html {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Botón flotante para ir al carrito */
 .btn-flotante {
     position: fixed;
     bottom: 20px; 
@@ -248,7 +247,6 @@ body, html {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Estilos específicos para la sección del carrito */
 .cart-section {
     background-color: rgba(255, 255, 255, 0.9); 
     padding: 40px;
@@ -277,7 +275,6 @@ body, html {
     border-bottom: 1px solid #ddd;
 }
 
-/* Estilos específicos para la sección del carrito */
 .cart-section {
   background-color: rgba(255, 255, 255, 0.9); 
   padding: 40px;
@@ -287,12 +284,10 @@ body, html {
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
-  /* Mantener el tamaño actual */
-  max-height: 400px; /* Limitar la altura máxima del carrito */
-  overflow-y: auto;  /* Agregar barra de desplazamiento si es necesario */
+  max-height: 400px; 
+  overflow-y: auto;  
 }
 
-/* Estilo para los items dentro del carrito */
 .cart-section #cart-items {
   margin-top: 20px;
   padding: 20px;
@@ -300,7 +295,6 @@ body, html {
   border-radius: 5px;
 }
 
-/* Estilo de los botones */
 .cart-section button {
   margin-top: 20px;
   padding: 12px 25px;
@@ -319,7 +313,6 @@ body, html {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Confirmar compra - mensaje en negro */
 #confirmarCompra {
   background-color: #28a745;
   margin-left: 10px;
@@ -329,10 +322,9 @@ body, html {
   background-color: #218838;
 }
 
-/* Texto en negro al confirmar compra */
 .cart-section h2,
 .cart-section p {
-  color: #000; /* Asegurar que el texto de confirmación sea negro */
+  color: #000; 
 }
 
 .cart-section #total {
@@ -353,7 +345,6 @@ body, html {
     margin: 10px 0;
 }
 
-/* Botón flotante para volver al inicio */
 .btn-flotante-inicio {
   position: fixed;
   bottom: 20px;
